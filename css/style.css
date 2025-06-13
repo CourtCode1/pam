@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Jersey+20&family=Sixtyfour+Convergence&display=swap');
+
 body{
     background-color: paleturquoise;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(195, 174, 192);
+    padding: 20px;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(243, 247, 218);
+    border-radius: 50%;
+}
+
+header h1{
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 50px;
+    margin: 10px 0 20px;
+    color: rgb(107, 1, 91);
 }
