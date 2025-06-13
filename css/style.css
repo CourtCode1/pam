@@ -2,6 +2,7 @@
 
 body{
     background-color: paleturquoise;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 html, body {
@@ -15,6 +16,36 @@ header{
     padding: 20px;
 }
 
+p, ul, ol{
+        font-size: 20px;
+    line-height: 20px;
+}
+
+ul, ol{
+    padding: 0;
+    list-style-position: inside;
+}
+
+a, a:visited{
+    color: rgb(107, 1, 91);
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: rgb(147, 98, 166);
+}
+
+
+p.caption{
+    font-size: 16px;
+    color: rgb(33, 33, 33);
+    font-style: italic;
+    margin: 0;
+}
+
 header img{
     width: 200px;
     height: 200px;
@@ -22,11 +53,29 @@ header img{
     border-radius: 50%;
 }
 
-header h1{
+h1{
   font-family: "Jersey 20", sans-serif;
   font-weight: 400;
   font-style: normal;
     font-size: 50px;
     margin: 10px 0 20px;
     color: rgb(107, 1, 91);
+}
+
+h2{
+     font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 30px;
+    margin: 20px 0 20px;
+    color: rgb(107, 1, 91);
+}
+
+main{
+    width: 700px;
+    margin: 0 auto;
+}
+
+main img{
+    max-width: 100%;
 }
